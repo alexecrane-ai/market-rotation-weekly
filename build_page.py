@@ -4,6 +4,27 @@ dashboard_export.py writes. Standard library only."""
 import html, json, os
 from datetime import datetime, timezone
 
+STAMP = datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')  # build id, checked by the page
+FRESH_JS = '''<script>
+/* Phones keep an old copy of this page. On every open, check stamp.txt (never cached)
+   and reload if a newer report has been published. */
+(function () {
+  var S = "__STAMP__";
+  function chk() {
+    fetch("stamp.txt?t=" + Date.now(), {cache: "no-store"})
+      .then(function (r) { return r.ok ? r.text() : ""; })
+      .then(function (t) {
+        t = t.trim();
+        if (t && t !== S && location.search.indexOf("v=" + t) < 0)
+          location.replace(location.pathname + "?v=" + encodeURIComponent(t));
+      }).catch(function () {});
+  }
+  chk();
+  document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") chk(); });
+  window.addEventListener("pageshow", function (e) { if (e.persisted) chk(); });
+})();
+</script>'''.replace('__STAMP__', STAMP)
+
 DATA = "data"
 REPO = os.environ.get("GITHUB_REPOSITORY", "alexecrane-ai/market-rotation-weekly")
 REFRESH_URL = f"https://github.com/{REPO}/actions/workflows/weekly.yml"
@@ -192,8 +213,10 @@ The pattern is <b>{e(summary['pattern'])}</b>: staples, health care and utilitie
 
 <footer>Source: Yahoo Finance daily closes (free, unofficial, can lag). Updated every Sunday evening by GitHub Actions.<br>
 Describes past prices only, not a forecast and not financial advice.</footer>
-</main></body></html>"""
+</main>{FRESH_JS}</body></html>"""
 
 with open("index.html", "w") as f:
     f.write(page)
+with open("stamp.txt", "w") as f:
+    f.write(STAMP)
 print("Wrote index.html")

@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "market-rotation-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add macro.json data history index.html
+          git add macro.json data history index.html stamp.txt
           git commit -m "Market rotation $(date '+%Y-%m-%d')" || echo "No changes"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0
@@ -72,7 +72,7 @@ jobs:
 
       - name: Package site
         if: steps.gate.outputs.run == 'true'
-        run: mkdir -p _site && cp -r index.html data _site/
+        run: mkdir -p _site && cp -r index.html stamp.txt data _site/
 
       - uses: actions/upload-pages-artifact@v3
         if: steps.gate.outputs.run == 'true'
@@ -82,4 +82,13 @@ jobs:
       - name: Publish to phone URL
         id: deploy
         if: steps.gate.outputs.run == 'true'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      # GitHub's publish step sometimes fails for a moment; wait and try once more.
+      - name: Retry publish
+        if: steps.gate.outputs.run == 'true' && steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - name: Publish to phone URL (retry)
+        if: steps.gate.outputs.run == 'true' && steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
