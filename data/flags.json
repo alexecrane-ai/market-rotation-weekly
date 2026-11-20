@@ -14,7 +14,7 @@
    "sym": "XLK",
    "name": "Tech",
    "flag": "Left out of the move",
-   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-2.2 pts).",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-2.1 pts).",
    "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
    "risk": "Cyclical sectors can turn quickly if the mood changes."
   },
@@ -32,30 +32,21 @@
    "sym": "XLY",
    "name": "Consumer discretionary",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+4.8 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+4.9 pts) and money moved in quickly this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
    "id": "5",
-   "sym": "XLF",
-   "name": "Financials",
-   "flag": "Left out of the move",
-   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (+0.2 pts).",
-   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
-   "risk": "Cyclical sectors can turn quickly if the mood changes."
-  },
-  {
-   "id": "6",
    "sym": "XLV",
    "name": "Health care",
    "flag": "Leader losing speed",
-   "shows": "Beat the S&P 500 by 9.0 pts over 3 months, but that lead stopped growing this week.",
+   "shows": "Beat the S&P 500 by 9.5 pts over 3 months, but that lead stopped growing this week.",
    "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
    "risk": "Leaders often pause and then resume; one week is not a trend."
   },
   {
-   "id": "7",
+   "id": "6",
    "sym": "XLV",
    "name": "Health care",
    "flag": "Heavy trading",
@@ -64,16 +55,16 @@
    "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
   {
-   "id": "8",
+   "id": "7",
    "sym": "XLP",
    "name": "Consumer staples",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+10.7 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+11.0 pts) and money moved in quickly this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
-   "id": "9",
+   "id": "8",
    "sym": "XLP",
    "name": "Consumer staples",
    "flag": "Heavy trading",
@@ -82,16 +73,16 @@
    "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
   {
-   "id": "10",
+   "id": "9",
    "sym": "XLU",
    "name": "Utilities",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+6.4 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+6.6 pts) and money moved in quickly this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
-   "id": "11",
+   "id": "10",
    "sym": "SMH",
    "name": "Semiconductors",
    "flag": "Correction, still falling behind",
@@ -100,7 +91,7 @@
    "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
   },
   {
-   "id": "12",
+   "id": "11",
    "sym": "VXUS",
    "name": "International (ex-US)",
    "flag": "Correction, still falling behind",
@@ -109,7 +100,7 @@
    "risk": "Buying a falling region early is a common way to lose money; nothing here says it has bottomed."
   },
   {
-   "id": "13",
+   "id": "12",
    "sym": "VWO",
    "name": "Emerging markets",
    "flag": "Correction, still falling behind",
@@ -129,7 +120,7 @@
   },
   {
    "label": "Built",
-   "value": "2026-11-20T14:55:46+00:00"
+   "value": "2026-11-20T15:09:25+00:00"
   },
   {
    "label": "Made by",

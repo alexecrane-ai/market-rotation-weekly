@@ -6,7 +6,7 @@
    "laggards": "Communication, Industrials, Tech",
    "defensive_in_top3": 3,
    "pattern": "defensive",
-   "above_50d": 5,
+   "above_50d": 6,
    "above_200d": 5,
    "sectors": 11,
    "regime_lean": "rates stay high",
@@ -26,7 +26,7 @@
   },
   {
    "label": "Built",
-   "value": "2026-11-20T14:55:46+00:00"
+   "value": "2026-11-20T15:09:25+00:00"
   },
   {
    "label": "Made by",
