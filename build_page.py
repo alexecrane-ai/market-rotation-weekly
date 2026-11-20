@@ -39,7 +39,7 @@ def bars(rows, label, value, unit="%", highlight=None):
         return "<p class='cap'>No data.</p>"
     lo, hi = min(0, min(r[value] for r in rows)), max(0, max(r[value] for r in rows))
     span = (hi - lo) or 1
-    W, LW, VW, H = 600, 170, 64, 26
+    W, LW, VW, H = 360, 150, 58, 24
     plot = W - LW - VW
     zx = LW + (0 - lo) / span * plot
     out = [f"<svg viewBox='0 0 {W} {H * len(rows) + 6}' class='bars' role='img'>"]
@@ -48,9 +48,9 @@ def bars(rows, label, value, unit="%", highlight=None):
         x0 = zx if v >= 0 else zx + v / span * plot
         w = abs(v) / span * plot
         c = "hl" if highlight and highlight(r) else ("p" if v >= 0 else "n")
-        out.append(f"<text x='{LW - 8}' y='{y + 16}' text-anchor='end' class='lbl'>{e(label(r))}</text>"
+        out.append(f"<text x='{LW - 8}' y='{y + 15}' text-anchor='end' class='lbl'>{e(label(r))}</text>"
                    f"<rect x='{x0:.1f}' y='{y + 3}' width='{max(w, 1):.1f}' height='{H - 8}' rx='3' class='b {c}'/>"
-                   f"<text x='{W - 4}' y='{y + 16}' text-anchor='end' class='val'>{v:+.1f}{unit}</text>")
+                   f"<text x='{W - 4}' y='{y + 15}' text-anchor='end' class='val'>{v:+.1f}{unit}</text>")
     out.append(f"<line x1='{zx:.1f}' x2='{zx:.1f}' y1='0' y2='{H * len(rows) + 6}' class='zero'/></svg>")
     return "".join(out)
 
@@ -109,8 +109,8 @@ h1 {{ margin:0 0 4px; font-size:26px }}
 section {{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:16px; min-width:0 }}
 h2 {{ margin:0 0 6px; font-size:17px }}
 .take {{ margin:0 0 12px }} .cap, .muted {{ color:var(--muted); font-size:13px }}
-.bars {{ width:100%; height:auto; display:block }}
-.bars text {{ font-size:13px; fill:var(--muted) }} .bars .lbl {{ fill:var(--ink) }}
+.bars {{ width:100%; max-width:640px; height:auto; display:block }}
+.bars text {{ font-size:12px; fill:var(--muted) }} .bars .lbl {{ fill:var(--ink) }}
 .b.p {{ fill:var(--pos) }} .b.n {{ fill:var(--neg) }} .b.hl {{ fill:var(--hl) }}
 .zero {{ stroke:var(--muted); stroke-width:1 }}
 .tw {{ overflow-x:auto }}
@@ -141,7 +141,7 @@ footer {{ color:var(--muted); font-size:13px; margin-top:20px }}
 
 <section><h2>Big indexes: how far below their 1-year high</h2>
 <p class="take">0% means at the high. Down 10% is a "correction", down 20% a "bear market".</p>
-{bars(idx_sorted, lambda r: r['sym'] + ' · ' + r['name'].split(' (')[0], 'off_high')}
+{bars(idx_sorted, lambda r: r['name'].split(' (')[0], 'off_high')}
 {table(['Index', 'Trend', '1 wk', '1 mo', '3 mo', 'YTD', 'vs 200-day'],
        [[e(r['sym']), e(r['trend']), pct_td(r['w1']), pct_td(r['m1']), pct_td(r['m3']), pct_td(r['ytd']), pct_td(r['vs200'])] for r in indexes])}
 </section>
