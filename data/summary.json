@@ -1,16 +1,16 @@
 {
  "rows": [
   {
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "leaders": "Consumer staples, Health care, Utilities",
-   "laggards": "Materials, Industrials, Tech",
+   "laggards": "Communication, Industrials, Tech",
    "defensive_in_top3": 3,
    "pattern": "defensive",
    "above_50d": 5,
-   "above_200d": 6,
+   "above_200d": 5,
    "sectors": 11,
    "regime_lean": "rates stay high",
-   "regime_high": 3,
+   "regime_high": 4,
    "regime_fall": 1,
    "regime_signals": 6
   }
@@ -22,11 +22,11 @@
   },
   {
    "label": "Closes as of",
-   "value": "2026-11-19"
+   "value": "2026-11-20"
   },
   {
    "label": "Built",
-   "value": "2026-11-20T02:53:24+00:00"
+   "value": "2026-11-20T14:52:23+00:00"
   },
   {
    "label": "Made by",
