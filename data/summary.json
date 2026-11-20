@@ -1,0 +1,36 @@
+{
+ "rows": [
+  {
+   "as_of": "2026-11-13",
+   "leaders": "Health care, Consumer staples, Energy",
+   "laggards": "Communication, Industrials, Tech",
+   "defensive_in_top3": 2,
+   "pattern": "defensive",
+   "above_50d": 7,
+   "above_200d": 7,
+   "sectors": 11,
+   "regime_lean": "rates stay high",
+   "regime_high": 3,
+   "regime_fall": 1,
+   "regime_signals": 6
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}

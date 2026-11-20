@@ -1,0 +1,76 @@
+{
+ "rows": [
+  {
+   "id": "tnx",
+   "signal": "10-year Treasury yield",
+   "measure": "change in % points",
+   "m1": 0.07,
+   "m3": 0.43,
+   "leans": "no clear lean",
+   "why": "Higher yields mean borrowing stays expensive."
+  },
+  {
+   "id": "tlt",
+   "signal": "Long Treasury bonds (TLT)",
+   "measure": "price change, %",
+   "m1": -0.74,
+   "m3": -2.42,
+   "leans": "no clear lean",
+   "why": "Bond prices rise when yields fall."
+  },
+  {
+   "id": "oil",
+   "signal": "Oil (USO)",
+   "measure": "price change, %",
+   "m1": -7.46,
+   "m3": 11.74,
+   "leans": "rates and oil fall",
+   "why": "Rising oil feeds inflation, which keeps rates up."
+  },
+  {
+   "id": "usd",
+   "signal": "US dollar (UUP)",
+   "measure": "price change, %",
+   "m1": 1.72,
+   "m3": 4.98,
+   "leans": "rates stay high",
+   "why": "A firm dollar often goes with higher US rates."
+  },
+  {
+   "id": "defgrowth",
+   "signal": "Defensive sectors vs Nasdaq 100",
+   "measure": "staples, health care, utilities minus QQQ, % points",
+   "m1": 12.9,
+   "m3": 14.11,
+   "leans": "rates stay high",
+   "why": "Defensive stocks ahead of growth stocks is a cautious pattern."
+  },
+  {
+   "id": "valuetech",
+   "signal": "Financials and energy vs tech",
+   "measure": "XLF and XLE minus XLK, % points",
+   "m1": 11.88,
+   "m3": 13.38,
+   "leans": "rates stay high",
+   "why": "Banks and energy tend to do well when rates and oil stay high; tech tends to do well when they fall."
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}

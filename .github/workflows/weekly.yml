@@ -1,0 +1,79 @@
+name: Market Rotation Weekly
+
+on:
+  schedule:
+    # Sunday 6:00pm New York. Two crons cover EST (23 UTC) and EDT (22 UTC); the gate keeps the right one.
+    - cron: "0 22 * * 0"
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Gate on New York time
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          cron_hour=$(echo "${{ github.event.schedule }}" | awk '{print $2}')
+          if [ "$(TZ=America/New_York date +%z)" = "-0500" ]; then wanted=23; else wanted=22; fi
+          if [ "$cron_hour" = "$wanted" ]; then echo "run=true" >> "$GITHUB_OUTPUT"
+          else echo "Skipping: $cron_hour UTC isn't 6pm New York today."; echo "run=false" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Fetch prices and build page
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python macro.py --out macro.json || { echo "Yahoo busy, retrying in 60s"; sleep 60; python macro.py --out macro.json; }
+          python dashboard_export.py macro.json data
+          python build_page.py
+          mkdir -p history
+          asof=$(python -c "import json;print(json.load(open('macro.json'))['as_of'])")
+          [ -f "history/$asof.json" ] || cp macro.json "history/$asof.json"
+
+      - name: Save weekly snapshot
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "market-rotation-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add macro.json data history index.html
+          git commit -m "Market rotation $(date '+%Y-%m-%d')" || echo "No changes"
+          git push
+
+      - uses: actions/configure-pages@v5
+        if: steps.gate.outputs.run == 'true'
+
+      - name: Package site
+        if: steps.gate.outputs.run == 'true'
+        run: mkdir -p _site && cp -r index.html data _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.gate.outputs.run == 'true'
+        with:
+          path: _site
+
+      - name: Publish to phone URL
+        id: deploy
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/deploy-pages@v4

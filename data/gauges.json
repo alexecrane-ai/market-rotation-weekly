@@ -1,0 +1,64 @@
+{
+ "rows": [
+  {
+   "pair": "XLY/XLP",
+   "label": "Discretionary vs staples",
+   "rising_means": "risk on",
+   "m1": -0.7,
+   "m3": -5.77
+  },
+  {
+   "pair": "IWM/SPY",
+   "label": "Small vs large caps",
+   "rising_means": "risk on / broadening",
+   "m1": 3.22,
+   "m3": -6.51
+  },
+  {
+   "pair": "RSP/SPY",
+   "label": "Equal vs cap weight",
+   "rising_means": "broadening (average stock beating the giants)",
+   "m1": 5.24,
+   "m3": 2.6
+  },
+  {
+   "pair": "SMH/SPY",
+   "label": "Semis vs S&P 500",
+   "rising_means": "risk on (growth leading)",
+   "m1": -10.89,
+   "m3": -16.08
+  },
+  {
+   "pair": "SPY/TLT",
+   "label": "Stocks vs long bonds",
+   "rising_means": "risk on",
+   "m1": -1.53,
+   "m3": 0.05
+  },
+  {
+   "pair": "XLV/SPY",
+   "label": "Health care vs S&P 500",
+   "rising_means": "defensive",
+   "m1": 9.04,
+   "m3": 15.79
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}

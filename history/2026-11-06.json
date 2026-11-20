@@ -1,0 +1,1488 @@
+{
+ "created_by": "trader-macro",
+ "created_at": "2026-11-16T00:53:50+00:00",
+ "as_of": "2026-11-06",
+ "source": "Yahoo Finance daily closes (free, unofficial, can lag)",
+ "indexes": {
+  "SPY": {
+   "last": 735.29,
+   "as_of": "2026-11-06",
+   "1d": 0.31,
+   "1w": -2.7,
+   "1m": -4.99,
+   "3m": -4.88,
+   "6m": -0.32,
+   "ytd": 7.83,
+   "ma50": 765.68,
+   "ma200": 730.38,
+   "vs50": -3.97,
+   "vs200": 0.67,
+   "off_high": -5.62,
+   "off_low": 16.35,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "S&P 500",
+   "trend": "dip inside uptrend (below 50d, above 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 0.0,
+   "rel_3m": 0.0
+  },
+  "QQQ": {
+   "last": 656.1,
+   "as_of": "2026-11-06",
+   "1d": 1.4,
+   "1w": -4.98,
+   "1m": -12.24,
+   "3m": -8.98,
+   "6m": -7.75,
+   "ytd": 6.8,
+   "ma50": 720.97,
+   "ma200": 680.89,
+   "vs50": -9.0,
+   "vs200": -3.64,
+   "off_high": -13.63,
+   "off_low": 17.52,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Nasdaq 100",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": -7.25,
+   "rel_3m": -4.1
+  },
+  "IWM": {
+   "last": 273.67,
+   "as_of": "2026-11-06",
+   "1d": 0.99,
+   "1w": -2.03,
+   "1m": -1.41,
+   "3m": -8.77,
+   "6m": -3.69,
+   "ytd": 11.18,
+   "ma50": 282.11,
+   "ma200": 279.0,
+   "vs50": -2.99,
+   "vs200": -1.91,
+   "off_high": -10.3,
+   "off_low": 19.45,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Russell 2000 (small caps)",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": 3.58,
+   "rel_3m": -3.89
+  },
+  "DIA": {
+   "last": 512.22,
+   "as_of": "2026-11-06",
+   "1d": -0.4,
+   "1w": -0.95,
+   "1m": 0.11,
+   "3m": -4.97,
+   "6m": 3.24,
+   "ytd": 6.59,
+   "ma50": 520.19,
+   "ma200": 506.65,
+   "vs50": -1.53,
+   "vs200": 1.1,
+   "off_high": -5.64,
+   "off_low": 13.48,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Dow 30",
+   "trend": "dip inside uptrend (below 50d, above 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 5.1,
+   "rel_3m": -0.09
+  },
+  "RSP": {
+   "last": 216.05,
+   "as_of": "2026-11-06",
+   "1d": -0.38,
+   "1w": -1.04,
+   "1m": 1.97,
+   "3m": -1.89,
+   "6m": 5.85,
+   "ytd": 12.78,
+   "ma50": 214.78,
+   "ma200": 208.29,
+   "vs50": 0.59,
+   "vs200": 3.72,
+   "off_high": -3.26,
+   "off_low": 18.59,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "S&P 500 equal-weight",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 6.96,
+   "rel_3m": 2.99
+  }
+ },
+ "sectors": {
+  "XLK": {
+   "last": 164.74,
+   "as_of": "2026-11-06",
+   "1d": 1.45,
+   "1w": -8.23,
+   "1m": -16.71,
+   "3m": -11.58,
+   "6m": -6.14,
+   "ytd": 14.43,
+   "ma50": 188.45,
+   "ma200": 170.2,
+   "vs50": -12.58,
+   "vs200": -3.21,
+   "off_high": -18.45,
+   "off_low": 29.21,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Tech",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": -11.72,
+   "rel_3m": -6.7
+  },
+  "XLC": {
+   "last": 104.79,
+   "as_of": "2026-11-06",
+   "1d": 0.43,
+   "1w": 4.89,
+   "1m": -6.5,
+   "3m": -6.3,
+   "6m": -10.39,
+   "ytd": -10.98,
+   "ma50": 109.81,
+   "ma200": 112.61,
+   "vs50": -4.57,
+   "vs200": -6.94,
+   "off_high": -12.73,
+   "off_low": 4.89,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Communication",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": -1.51,
+   "rel_3m": -1.42
+  },
+  "XLY": {
+   "last": 117.58,
+   "as_of": "2026-11-06",
+   "1d": -0.05,
+   "1w": 1.91,
+   "1m": 5.25,
+   "3m": -1.75,
+   "6m": -2.18,
+   "ytd": -1.53,
+   "ma50": 113.35,
+   "ma200": 115.48,
+   "vs50": 3.73,
+   "vs200": 1.82,
+   "off_high": -5.57,
+   "off_low": 11.28,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Consumer discretionary",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 10.24,
+   "rel_3m": 3.13
+  },
+  "XLF": {
+   "last": 57.16,
+   "as_of": "2026-11-06",
+   "1d": -0.59,
+   "1w": 1.15,
+   "1m": 5.4,
+   "3m": -1.12,
+   "6m": 11.55,
+   "ytd": 4.36,
+   "ma50": 55.92,
+   "ma200": 53.82,
+   "vs50": 2.23,
+   "vs200": 6.21,
+   "off_high": -3.45,
+   "off_low": 19.56,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Financials",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 10.39,
+   "rel_3m": 3.76
+  },
+  "XLI": {
+   "last": 162.67,
+   "as_of": "2026-11-06",
+   "1d": 0.12,
+   "1w": -2.83,
+   "1m": -3.4,
+   "3m": -11.88,
+   "6m": -6.08,
+   "ytd": 4.87,
+   "ma50": 169.47,
+   "ma200": 173.34,
+   "vs50": -4.01,
+   "vs200": -6.16,
+   "off_high": -12.78,
+   "off_low": 10.04,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Industrials",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": 1.59,
+   "rel_3m": -7.0
+  },
+  "XLE": {
+   "last": 61.62,
+   "as_of": "2026-11-06",
+   "1d": -0.02,
+   "1w": -12.0,
+   "1m": -5.55,
+   "3m": 2.39,
+   "6m": 10.63,
+   "ytd": 37.82,
+   "ma50": 65.07,
+   "ma200": 59.13,
+   "vs50": -5.31,
+   "vs200": 4.21,
+   "off_high": -12.0,
+   "off_low": 40.65,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Energy",
+   "trend": "dip inside uptrend (below 50d, above 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": -0.56,
+   "rel_3m": 7.27
+  },
+  "XLB": {
+   "last": 51.95,
+   "as_of": "2026-11-06",
+   "1d": -0.73,
+   "1w": -1.5,
+   "1m": 5.44,
+   "3m": -2.31,
+   "6m": 0.7,
+   "ytd": 14.55,
+   "ma50": 50.93,
+   "ma200": 51.18,
+   "vs50": 2.01,
+   "vs200": 1.51,
+   "off_high": -3.62,
+   "off_low": 23.02,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Materials",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 10.43,
+   "rel_3m": 2.57
+  },
+  "XLV": {
+   "last": 184.8,
+   "as_of": "2026-11-06",
+   "1d": -0.06,
+   "1w": -0.04,
+   "1m": 9.9,
+   "3m": 9.71,
+   "6m": 28.79,
+   "ytd": 19.38,
+   "ma50": 173.38,
+   "ma200": 159.39,
+   "vs50": 6.59,
+   "vs200": 15.94,
+   "off_high": -2.56,
+   "off_low": 29.38,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Health care",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "near its high",
+   "rel_1m": 14.89,
+   "rel_3m": 14.59
+  },
+  "XLP": {
+   "last": 90.08,
+   "as_of": "2026-11-06",
+   "1d": -1.28,
+   "1w": 0.74,
+   "1m": 7.98,
+   "3m": 6.04,
+   "6m": 7.01,
+   "ytd": 15.96,
+   "ma50": 85.04,
+   "ma200": 84.67,
+   "vs50": 5.93,
+   "vs200": 6.39,
+   "off_high": -2.02,
+   "off_low": 19.15,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Consumer staples",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "near its high",
+   "rel_1m": 12.97,
+   "rel_3m": 10.92
+  },
+  "XLU": {
+   "last": 43.13,
+   "as_of": "2026-11-06",
+   "1d": -0.39,
+   "1w": -0.69,
+   "1m": 5.02,
+   "3m": 0.0,
+   "6m": -3.56,
+   "ytd": 1.03,
+   "ma50": 41.77,
+   "ma200": 44.31,
+   "vs50": 3.25,
+   "vs200": -2.67,
+   "off_high": -9.64,
+   "off_low": 9.89,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Utilities",
+   "trend": "bouncing (above 50d, below 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 10.01,
+   "rel_3m": 4.88
+  },
+  "XLRE": {
+   "last": 44.0,
+   "as_of": "2026-11-06",
+   "1d": -0.68,
+   "1w": 1.92,
+   "1m": 7.71,
+   "3m": -0.9,
+   "6m": -0.92,
+   "ytd": 9.05,
+   "ma50": 42.55,
+   "ma200": 43.4,
+   "vs50": 3.4,
+   "vs200": 1.37,
+   "off_high": -4.37,
+   "off_low": 9.97,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Real estate",
+   "trend": "uptrend (above 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 12.7,
+   "rel_3m": 3.98
+  }
+ },
+ "extra": {
+  "SMH": {
+   "last": 463.96,
+   "as_of": "2026-11-06",
+   "1d": 3.62,
+   "1w": -11.2,
+   "1m": -23.6,
+   "3m": -18.52,
+   "6m": -18.11,
+   "ytd": 28.83,
+   "ma50": 565.64,
+   "ma200": 521.76,
+   "vs50": -17.98,
+   "vs200": -11.08,
+   "off_high": -30.64,
+   "off_low": 42.71,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Semiconductors",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "bear-market territory (20%+ off high)",
+   "rel_1m": -18.61,
+   "rel_3m": -13.64
+  }
+ },
+ "intl": {
+  "VXUS": {
+   "last": 80.92,
+   "as_of": "2026-11-06",
+   "1d": 0.15,
+   "1w": -1.76,
+   "1m": -3.78,
+   "3m": -6.81,
+   "6m": -5.28,
+   "ytd": 7.26,
+   "ma50": 85.0,
+   "ma200": 83.51,
+   "vs50": -4.79,
+   "vs200": -3.1,
+   "off_high": -8.47,
+   "off_low": 12.09,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "International (ex-US)",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "pullback (3-10% off high)",
+   "rel_1m": 1.21,
+   "rel_3m": -1.93
+  },
+  "VWO": {
+   "last": 55.29,
+   "as_of": "2026-11-06",
+   "1d": 1.94,
+   "1w": -0.4,
+   "1m": -6.45,
+   "3m": -8.35,
+   "6m": -8.67,
+   "ytd": 2.85,
+   "ma50": 58.95,
+   "ma200": 58.31,
+   "vs50": -6.21,
+   "vs200": -5.19,
+   "off_high": -10.01,
+   "off_low": 5.48,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Emerging markets",
+   "trend": "downtrend (below 50d and 200d)",
+   "drawdown": "correction (10-20% off high)",
+   "rel_1m": -1.46,
+   "rel_3m": -3.47
+  }
+ },
+ "cross_asset": {
+  "TLT": {
+   "last": 81.92,
+   "as_of": "2026-11-06",
+   "1d": -0.01,
+   "1w": 0.1,
+   "1m": 5.2,
+   "3m": -0.17,
+   "6m": -4.83,
+   "ytd": -6.01,
+   "ma50": 80.38,
+   "ma200": 84.47,
+   "vs50": 1.92,
+   "vs200": -3.02,
+   "off_high": -9.8,
+   "off_low": 6.24,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Long Treasuries (20y+)"
+  },
+  "GLD": {
+   "last": 372.52,
+   "as_of": "2026-11-06",
+   "1d": -0.79,
+   "1w": 4.71,
+   "1m": -1.61,
+   "3m": -7.46,
+   "6m": -14.12,
+   "ytd": -6.0,
+   "ma50": 384.96,
+   "ma200": 411.24,
+   "vs50": -3.23,
+   "vs200": -9.42,
+   "off_high": -24.88,
+   "off_low": 4.71,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "Gold"
+  },
+  "UUP": {
+   "last": 29.13,
+   "as_of": "2026-11-06",
+   "1d": 0.73,
+   "1w": 0.45,
+   "1m": 0.52,
+   "3m": 3.52,
+   "6m": 6.55,
+   "ytd": 7.77,
+   "ma50": 28.69,
+   "ma200": 27.97,
+   "vs50": 1.54,
+   "vs200": 4.16,
+   "off_high": 0.0,
+   "off_low": 10.05,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "US dollar"
+  },
+  "USO": {
+   "last": 148.41,
+   "as_of": "2026-11-06",
+   "1d": 0.13,
+   "1w": -12.1,
+   "1m": 0.56,
+   "3m": 17.86,
+   "6m": 11.09,
+   "ytd": 114.59,
+   "ma50": 152.22,
+   "ma200": 125.96,
+   "vs50": -2.5,
+   "vs200": 17.82,
+   "off_high": -12.46,
+   "off_low": 124.29,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "Oil (WTI crude fund)"
+  },
+  "^VIX": {
+   "last": 25.64,
+   "as_of": "2026-11-06",
+   "1d": -9.01,
+   "1w": 32.03,
+   "1m": 66.39,
+   "3m": 67.8,
+   "6m": 42.52,
+   "ytd": 71.51,
+   "ma50": 16.92,
+   "ma200": 18.4,
+   "vs50": 51.52,
+   "vs200": 39.38,
+   "off_high": -17.42,
+   "off_low": 90.35,
+   "ma50_above_ma200": false,
+   "short_history": false,
+   "name": "VIX (fear gauge)"
+  },
+  "^TNX": {
+   "last": 4.86,
+   "as_of": "2026-11-06",
+   "1d": 0.45,
+   "1w": -1.42,
+   "1m": -7.11,
+   "3m": 3.4,
+   "6m": 11.34,
+   "ytd": 16.72,
+   "ma50": 5.03,
+   "ma200": 4.56,
+   "vs50": -3.46,
+   "vs200": 6.48,
+   "off_high": -8.51,
+   "off_low": 22.64,
+   "ma50_above_ma200": true,
+   "short_history": false,
+   "name": "10-year yield (%)"
+  }
+ },
+ "sector_rank_3m": [
+  "XLV",
+  "XLP",
+  "XLE",
+  "XLU",
+  "XLRE",
+  "XLF",
+  "XLY",
+  "XLB",
+  "XLC",
+  "XLK",
+  "XLI"
+ ],
+ "breadth": {
+  "sectors": 11,
+  "above_50d": 7,
+  "above_200d": 7
+ },
+ "ratios": [
+  {
+   "pair": "XLY/XLP",
+   "label": "Discretionary vs staples",
+   "rising_means": "risk on",
+   "1m": -2.53,
+   "3m": -7.34
+  },
+  {
+   "pair": "IWM/SPY",
+   "label": "Small vs large caps",
+   "rising_means": "risk on / broadening",
+   "1m": 3.78,
+   "3m": -4.09
+  },
+  {
+   "pair": "RSP/SPY",
+   "label": "Equal vs cap weight",
+   "rising_means": "broadening (average stock beating the giants)",
+   "1m": 7.33,
+   "3m": 3.14
+  },
+  {
+   "pair": "SMH/SPY",
+   "label": "Semis vs S&P 500",
+   "rising_means": "risk on (growth leading)",
+   "1m": -19.58,
+   "3m": -14.34
+  },
+  {
+   "pair": "SPY/TLT",
+   "label": "Stocks vs long bonds",
+   "rising_means": "risk on",
+   "1m": -9.69,
+   "3m": -4.72
+  },
+  {
+   "pair": "XLV/SPY",
+   "label": "Health care vs S&P 500",
+   "rising_means": "defensive",
+   "1m": 15.67,
+   "3m": 15.34
+  }
+ ],
+ "flows": {
+  "XLK": {
+   "x": 91.06,
+   "y": 94.94,
+   "quadrant": "lagging",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 103.67,
+     "y": 97.23
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 97.27,
+     "y": 93.6
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 97.62,
+     "y": 100.35
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 96.12,
+     "y": 98.49
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 91.06,
+     "y": 94.94
+    }
+   ],
+   "rel_1w": -5.52,
+   "avg_week_before": -0.12,
+   "speed": "fast",
+   "direction": "out of",
+   "change": "speeding up",
+   "map_move_1w": 6.18,
+   "volume_ratio": 1.85,
+   "volume": "heavy",
+   "name": "Tech"
+  },
+  "XLC": {
+   "x": 99.38,
+   "y": 107.74,
+   "quadrant": "improving",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 97.3,
+     "y": 99.12
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 99.26,
+     "y": 101.95
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 95.51,
+     "y": 96.25
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 91.64,
+     "y": 96.13
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 99.38,
+     "y": 107.74
+    }
+   ],
+   "rel_1w": 7.6,
+   "avg_week_before": -0.71,
+   "speed": "fast",
+   "direction": "into",
+   "change": "reversing",
+   "map_move_1w": 13.95,
+   "volume_ratio": 1.57,
+   "volume": "heavy",
+   "name": "Communication"
+  },
+  "XLY": {
+   "x": 107.99,
+   "y": 104.52,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 97.24,
+     "y": 101.78
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 99.44,
+     "y": 102.21
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 100.73,
+     "y": 101.28
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 103.47,
+     "y": 102.75
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 107.99,
+     "y": 104.52
+    }
+   ],
+   "rel_1w": 4.61,
+   "avg_week_before": -0.05,
+   "speed": "fast",
+   "direction": "into",
+   "change": "new move",
+   "map_move_1w": 4.85,
+   "volume_ratio": 2.0,
+   "volume": "heavy",
+   "name": "Consumer discretionary"
+  },
+  "XLF": {
+   "x": 106.42,
+   "y": 103.85,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 95.43,
+     "y": 102.02
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 99.32,
+     "y": 103.89
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 100.7,
+     "y": 101.38
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 102.57,
+     "y": 101.87
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 106.42,
+     "y": 103.85
+    }
+   ],
+   "rel_1w": 3.85,
+   "avg_week_before": -0.05,
+   "speed": "fast",
+   "direction": "into",
+   "change": "new move",
+   "map_move_1w": 4.33,
+   "volume_ratio": 1.33,
+   "volume": "heavy",
+   "name": "Financials"
+  },
+  "XLI": {
+   "x": 99.95,
+   "y": 100.36,
+   "quadrant": "improving",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 94.96,
+     "y": 99.61
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 97.01,
+     "y": 102.05
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 96.56,
+     "y": 99.55
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 99.59,
+     "y": 103.03
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 99.95,
+     "y": 100.36
+    }
+   ],
+   "rel_1w": -0.12,
+   "avg_week_before": -0.64,
+   "speed": "slow",
+   "direction": "out of",
+   "change": "slowing",
+   "map_move_1w": 2.69,
+   "volume_ratio": 1.43,
+   "volume": "heavy",
+   "name": "Industrials"
+  },
+  "XLE": {
+   "x": 98.6,
+   "y": 89.09,
+   "quadrant": "lagging",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 102.37,
+     "y": 102.02
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 108.13,
+     "y": 105.76
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 108.86,
+     "y": 100.73
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 109.51,
+     "y": 100.65
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 98.6,
+     "y": 89.09
+    }
+   ],
+   "rel_1w": -9.29,
+   "avg_week_before": 1.84,
+   "speed": "fast",
+   "direction": "out of",
+   "change": "reversing",
+   "map_move_1w": 15.9,
+   "volume_ratio": 1.5,
+   "volume": "heavy",
+   "name": "Energy"
+  },
+  "XLB": {
+   "x": 106.19,
+   "y": 101.16,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 94.94,
+     "y": 100.91
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 100.19,
+     "y": 105.25
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 101.61,
+     "y": 101.41
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 105.03,
+     "y": 103.42
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 106.19,
+     "y": 101.16
+    }
+   ],
+   "rel_1w": 1.21,
+   "avg_week_before": 0.23,
+   "speed": "moderate",
+   "direction": "into",
+   "change": "speeding up",
+   "map_move_1w": 2.54,
+   "volume_ratio": 1.59,
+   "volume": "heavy",
+   "name": "Materials"
+  },
+  "XLV": {
+   "x": 110.96,
+   "y": 101.94,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 99.69,
+     "y": 101.85
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 104.66,
+     "y": 104.97
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 105.84,
+     "y": 101.19
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 109.01,
+     "y": 103.17
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 110.96,
+     "y": 101.94
+    }
+   ],
+   "rel_1w": 2.67,
+   "avg_week_before": 1.17,
+   "speed": "fast",
+   "direction": "into",
+   "change": "speeding up",
+   "map_move_1w": 2.31,
+   "volume_ratio": 1.87,
+   "volume": "heavy",
+   "name": "Health care"
+  },
+  "XLP": {
+   "x": 110.26,
+   "y": 102.94,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 97.88,
+     "y": 103.21
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 104.91,
+     "y": 107.03
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 105.67,
+     "y": 100.76
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 107.33,
+     "y": 101.66
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 110.26,
+     "y": 102.94
+    }
+   ],
+   "rel_1w": 3.44,
+   "avg_week_before": 0.56,
+   "speed": "fast",
+   "direction": "into",
+   "change": "speeding up",
+   "map_move_1w": 3.2,
+   "volume_ratio": 2.01,
+   "volume": "heavy",
+   "name": "Consumer staples"
+  },
+  "XLU": {
+   "x": 107.49,
+   "y": 101.85,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 96.65,
+     "y": 104.09
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 101.14,
+     "y": 104.49
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 102.7,
+     "y": 101.55
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 105.63,
+     "y": 102.94
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 107.49,
+     "y": 101.85
+    }
+   ],
+   "rel_1w": 2.01,
+   "avg_week_before": 0.15,
+   "speed": "fast",
+   "direction": "into",
+   "change": "speeding up",
+   "map_move_1w": 2.16,
+   "volume_ratio": 1.23,
+   "volume": "normal",
+   "name": "Utilities"
+  },
+  "XLRE": {
+   "x": 107.64,
+   "y": 104.86,
+   "quadrant": "leading",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 94.44,
+     "y": 102.26
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 98.46,
+     "y": 104.02
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 100.3,
+     "y": 101.85
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 102.78,
+     "y": 102.48
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 107.64,
+     "y": 104.86
+    }
+   ],
+   "rel_1w": 4.63,
+   "avg_week_before": -0.17,
+   "speed": "fast",
+   "direction": "into",
+   "change": "reversing",
+   "map_move_1w": 5.41,
+   "volume_ratio": 1.34,
+   "volume": "heavy",
+   "name": "Real estate"
+  },
+  "SMH": {
+   "x": 85.46,
+   "y": 92.77,
+   "quadrant": "lagging",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 102.88,
+     "y": 93.05
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 93.88,
+     "y": 90.99
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 92.63,
+     "y": 98.76
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 92.68,
+     "y": 100.05
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 85.46,
+     "y": 92.77
+    }
+   ],
+   "rel_1w": -8.5,
+   "avg_week_before": -0.58,
+   "speed": "fast",
+   "direction": "out of",
+   "change": "speeding up",
+   "map_move_1w": 10.25,
+   "volume_ratio": 1.58,
+   "volume": "heavy",
+   "name": "Semiconductors"
+  },
+  "VXUS": {
+   "x": 99.14,
+   "y": 101.37,
+   "quadrant": "improving",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 96.62,
+     "y": 98.49
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 97.26,
+     "y": 100.64
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 96.99,
+     "y": 99.73
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 97.76,
+     "y": 100.78
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 99.14,
+     "y": 101.37
+    }
+   ],
+   "rel_1w": 0.94,
+   "avg_week_before": -0.24,
+   "speed": "moderate",
+   "direction": "into",
+   "change": "reversing",
+   "map_move_1w": 1.5,
+   "volume_ratio": 1.24,
+   "volume": "normal",
+   "name": "International (ex-US)"
+  },
+  "VWO": {
+   "x": 97.67,
+   "y": 102.88,
+   "quadrant": "improving",
+   "tail": [
+    {
+     "weeks_ago": 4,
+     "date": "2026-10-09",
+     "x": 97.95,
+     "y": 99.33
+    },
+    {
+     "weeks_ago": 3,
+     "date": "2026-10-16",
+     "x": 97.22,
+     "y": 99.28
+    },
+    {
+     "weeks_ago": 2,
+     "date": "2026-10-23",
+     "x": 95.99,
+     "y": 98.76
+    },
+    {
+     "weeks_ago": 1,
+     "date": "2026-10-30",
+     "x": 94.79,
+     "y": 98.81
+    },
+    {
+     "weeks_ago": 0,
+     "date": "2026-11-06",
+     "x": 97.67,
+     "y": 102.88
+    }
+   ],
+   "rel_1w": 2.31,
+   "avg_week_before": -0.48,
+   "speed": "fast",
+   "direction": "into",
+   "change": "reversing",
+   "map_move_1w": 4.99,
+   "volume_ratio": 1.57,
+   "volume": "heavy",
+   "name": "Emerging markets"
+  }
+ },
+ "flags": [
+  {
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Correction, still falling behind",
+   "shows": "18% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-5.5 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
+  },
+  {
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.9x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLC",
+   "name": "Communication",
+   "flag": "Beaten down, starting to turn",
+   "shows": "13% below its 1-year high, but gaining on the S&P 500 this week (+7.6 pts).",
+   "why_look": "Some investors research areas that fell hard once they start to recover.",
+   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+  },
+  {
+   "sym": "XLC",
+   "name": "Communication",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLY",
+   "name": "Consumer discretionary",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+3.1 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLY",
+   "name": "Consumer discretionary",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 2.0x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLF",
+   "name": "Financials",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+3.8 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLF",
+   "name": "Financials",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLI",
+   "name": "Industrials",
+   "flag": "Beaten down, starting to turn",
+   "shows": "13% below its 1-year high, but gaining on the S&P 500 this week (-0.1 pts).",
+   "why_look": "Some investors research areas that fell hard once they start to recover.",
+   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+  },
+  {
+   "sym": "XLI",
+   "name": "Industrials",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.4x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLE",
+   "name": "Energy",
+   "flag": "Correction, still falling behind",
+   "shows": "12% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
+   "sym": "XLE",
+   "name": "Energy",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.5x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLB",
+   "name": "Materials",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+2.6 pts) and money moved in at a moderate pace this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLB",
+   "name": "Materials",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLV",
+   "name": "Health care",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+14.6 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLV",
+   "name": "Health care",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.9x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+10.9 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 2.0x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "XLU",
+   "name": "Utilities",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+4.9 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLRE",
+   "name": "Real estate",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+4.0 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "sym": "XLRE",
+   "name": "Real estate",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "SMH",
+   "name": "Semiconductors",
+   "flag": "Correction, still falling behind",
+   "shows": "31% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
+   "sym": "SMH",
+   "name": "Semiconductors",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "sym": "VWO",
+   "name": "Emerging markets",
+   "flag": "Beaten down, starting to turn",
+   "shows": "10% below its 1-year high, but gaining on the S&P 500 this week (+2.3 pts).",
+   "why_look": "Some investors research areas that fell hard once they start to recover.",
+   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+  },
+  {
+   "sym": "VWO",
+   "name": "Emerging markets",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  }
+ ],
+ "defensive_in_top3": 2,
+ "failed": {},
+ "note": "Rebuilt on 2026-11-15 from Yahoo daily closes cut off at 2026-11-06 (backfill; no live run that week)."
+}

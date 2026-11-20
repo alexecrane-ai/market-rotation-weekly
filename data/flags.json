@@ -1,0 +1,103 @@
+{
+ "rows": [
+  {
+   "id": "1",
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Beaten down, starting to turn",
+   "shows": "16% below its 1-year high, but gaining on the S&P 500 this week (+0.8 pts).",
+   "why_look": "Some investors research areas that fell hard once they start to recover.",
+   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+  },
+  {
+   "id": "2",
+   "sym": "XLY",
+   "name": "Consumer discretionary",
+   "flag": "Leader losing speed",
+   "shows": "Beat the S&P 500 by 5.1 pts over 3 months, but that lead stopped growing this week.",
+   "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
+   "risk": "Leaders often pause and then resume; one week is not a trend."
+  },
+  {
+   "id": "3",
+   "sym": "XLY",
+   "name": "Consumer discretionary",
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-0.6 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
+  },
+  {
+   "id": "4",
+   "sym": "XLF",
+   "name": "Financials",
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (+0.1 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
+  },
+  {
+   "id": "5",
+   "sym": "XLE",
+   "name": "Energy",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+6.2 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "id": "6",
+   "sym": "XLV",
+   "name": "Health care",
+   "flag": "Leader losing speed",
+   "shows": "Beat the S&P 500 by 15.4 pts over 3 months, but that lead stopped growing this week.",
+   "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
+   "risk": "Leaders often pause and then resume; one week is not a trend."
+  },
+  {
+   "id": "7",
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Leader losing speed",
+   "shows": "Beat the S&P 500 by 11.4 pts over 3 months, but that lead stopped growing this week.",
+   "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
+   "risk": "Leaders often pause and then resume; one week is not a trend."
+  },
+  {
+   "id": "8",
+   "sym": "SMH",
+   "name": "Semiconductors",
+   "flag": "Beaten down, starting to turn",
+   "shows": "27% below its 1-year high, but gaining on the S&P 500 this week (+2.3 pts).",
+   "why_look": "Some investors research areas that fell hard once they start to recover.",
+   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+  },
+  {
+   "id": "9",
+   "sym": "VWO",
+   "name": "Emerging markets",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}

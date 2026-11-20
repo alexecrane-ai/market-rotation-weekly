@@ -1,0 +1,92 @@
+{
+ "rows": [
+  {
+   "sym": "SPY",
+   "name": "S&P 500",
+   "last": 754.37,
+   "w1": 2.59,
+   "m1": -2.26,
+   "m3": -2.37,
+   "ytd": 10.62,
+   "vs50": -1.32,
+   "vs200": 3.07,
+   "off_high": -3.17,
+   "drawdown": "pullback (3-10% off high)",
+   "trend": "dip inside uptrend (below 50d, above 200d)"
+  },
+  {
+   "sym": "QQQ",
+   "name": "Nasdaq 100",
+   "last": 679.89,
+   "w1": 3.63,
+   "m1": -6.61,
+   "m3": -6.85,
+   "ytd": 10.68,
+   "vs50": -5.29,
+   "vs200": -0.34,
+   "off_high": -10.5,
+   "drawdown": "correction (10-20% off high)",
+   "trend": "downtrend (below 50d and 200d)"
+  },
+  {
+   "sym": "IWM",
+   "name": "Russell 2000 (small caps)",
+   "last": 277.54,
+   "w1": 1.41,
+   "m1": 0.89,
+   "m3": -8.72,
+   "ytd": 12.75,
+   "vs50": -1.15,
+   "vs200": -0.67,
+   "off_high": -9.03,
+   "drawdown": "pullback (3-10% off high)",
+   "trend": "downtrend (below 50d and 200d)"
+  },
+  {
+   "sym": "DIA",
+   "name": "Dow 30",
+   "last": 523.15,
+   "w1": 2.13,
+   "m1": 0.38,
+   "m3": -2.07,
+   "ytd": 8.86,
+   "vs50": 0.75,
+   "vs200": 3.1,
+   "off_high": -3.62,
+   "drawdown": "pullback (3-10% off high)",
+   "trend": "uptrend (above 50d and 200d)"
+  },
+  {
+   "sym": "RSP",
+   "name": "S&P 500 equal-weight",
+   "last": 221.16,
+   "w1": 2.37,
+   "m1": 2.87,
+   "m3": 0.17,
+   "ytd": 15.45,
+   "vs50": 2.87,
+   "vs200": 5.89,
+   "off_high": -0.97,
+   "drawdown": "near its high",
+   "trend": "uptrend (above 50d and 200d)"
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}

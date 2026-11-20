@@ -1,0 +1,36 @@
+{
+ "rows": [
+  {
+   "id": "nvda",
+   "date": "2026-11-17",
+   "event": "Nvidia quarterly results (after the close)",
+   "why": "The largest AI stock; its results tend to move tech and chip stocks.",
+   "days_away": 4
+  },
+  {
+   "id": "fomc",
+   "date": "2026-12-09",
+   "event": "Federal Reserve rate decision",
+   "why": "Whether the Fed raises, holds or cuts rates is the clearest signal of which outlook wins.",
+   "days_away": 26
+  }
+ ],
+ "meta": [
+  {
+   "label": "Source",
+   "value": "Yahoo Finance daily closes (free, unofficial, can lag)"
+  },
+  {
+   "label": "Closes as of",
+   "value": "2026-11-13"
+  },
+  {
+   "label": "Built",
+   "value": "2026-11-15T23:09:56+00:00"
+  },
+  {
+   "label": "Made by",
+   "value": "trader-macro/macro.py, then dashboard_export.py"
+  }
+ ]
+}
