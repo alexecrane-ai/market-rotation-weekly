@@ -4,43 +4,43 @@
    "pair": "XLY/XLP",
    "label": "Discretionary vs staples",
    "rising_means": "risk on",
-   "m1": -0.32,
-   "m3": -5.83
+   "m1": -2.62,
+   "m3": -8.0
   },
   {
    "pair": "IWM/SPY",
    "label": "Small vs large caps",
    "rising_means": "risk on / broadening",
-   "m1": 2.22,
-   "m3": -5.15
+   "m1": 2.77,
+   "m3": -4.64
   },
   {
    "pair": "RSP/SPY",
    "label": "Equal vs cap weight",
    "rising_means": "broadening (average stock beating the giants)",
-   "m1": 4.39,
-   "m3": 2.58
+   "m1": 5.35,
+   "m3": 3.52
   },
   {
    "pair": "SMH/SPY",
    "label": "Semis vs S&P 500",
    "rising_means": "risk on (growth leading)",
-   "m1": -11.78,
-   "m3": -15.62
+   "m1": -15.28,
+   "m3": -18.97
   },
   {
    "pair": "SPY/TLT",
    "label": "Stocks vs long bonds",
    "rising_means": "risk on",
-   "m1": -5.32,
-   "m3": -4.31
+   "m1": -8.87,
+   "m3": -7.9
   },
   {
    "pair": "XLV/SPY",
    "label": "Health care vs S&P 500",
    "rising_means": "defensive",
-   "m1": 6.17,
-   "m3": 10.11
+   "m1": 8.22,
+   "m3": 12.23
   }
  ],
  "meta": [
@@ -54,7 +54,7 @@
   },
   {
    "label": "Built",
-   "value": "2026-11-20T15:09:25+00:00"
+   "value": "2026-11-20T20:17:38+00:00"
   },
   {
    "label": "Made by",

@@ -4,8 +4,8 @@
    "id": "tnx",
    "signal": "10-year Treasury yield",
    "measure": "change in % points",
-   "m1": 0.03,
-   "m3": 0.28,
+   "m1": -0.04,
+   "m3": 0.21,
    "leans": "no clear lean",
    "why": "Higher yields mean borrowing stays expensive."
   },
@@ -13,17 +13,17 @@
    "id": "tlt",
    "signal": "Long Treasury bonds (TLT)",
    "measure": "price change, %",
-   "m1": -1.05,
-   "m3": -2.03,
-   "leans": "rates stay high",
+   "m1": -0.26,
+   "m3": -1.25,
+   "leans": "no clear lean",
    "why": "Bond prices rise when yields fall."
   },
   {
    "id": "oil",
    "signal": "Oil (USO)",
    "measure": "price change, %",
-   "m1": -16.3,
-   "m3": 2.88,
+   "m1": -14.78,
+   "m3": 4.75,
    "leans": "rates and oil fall",
    "why": "Rising oil feeds inflation, which keeps rates up."
   },
@@ -31,8 +31,8 @@
    "id": "usd",
    "signal": "US dollar (UUP)",
    "measure": "price change, %",
-   "m1": 2.46,
-   "m3": 5.9,
+   "m1": 2.52,
+   "m3": 5.97,
    "leans": "rates stay high",
    "why": "A firm dollar often goes with higher US rates."
   },
@@ -40,8 +40,8 @@
    "id": "defgrowth",
    "signal": "Defensive sectors vs Nasdaq 100",
    "measure": "staples, health care, utilities minus QQQ, % points",
-   "m1": 10.03,
-   "m3": 12.23,
+   "m1": 12.81,
+   "m3": 14.99,
    "leans": "rates stay high",
    "why": "Defensive stocks ahead of growth stocks is a cautious pattern."
   },
@@ -49,8 +49,8 @@
    "id": "valuetech",
    "signal": "Financials and energy vs tech",
    "measure": "XLF and XLE minus XLK, % points",
-   "m1": 7.99,
-   "m3": 8.75,
+   "m1": 11.41,
+   "m3": 12.24,
    "leans": "rates stay high",
    "why": "Banks and energy tend to do well when rates and oil stay high; tech tends to do well when they fall."
   }
@@ -66,7 +66,7 @@
   },
   {
    "label": "Built",
-   "value": "2026-11-20T15:09:25+00:00"
+   "value": "2026-11-20T20:17:38+00:00"
   },
   {
    "label": "Made by",
