@@ -4,82 +4,136 @@
    "id": "1",
    "sym": "XLK",
    "name": "Tech",
-   "flag": "Beaten down, starting to turn",
-   "shows": "16% below its 1-year high, but gaining on the S&P 500 this week (+0.8 pts).",
-   "why_look": "Some investors research areas that fell hard once they start to recover.",
-   "risk": "A one-week bounce often fails; the longer downtrend is still in place."
+   "flag": "Correction, still falling behind",
+   "shows": "20% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
   },
   {
    "id": "2",
-   "sym": "XLY",
-   "name": "Consumer discretionary",
-   "flag": "Leader losing speed",
-   "shows": "Beat the S&P 500 by 5.1 pts over 3 months, but that lead stopped growing this week.",
-   "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
-   "risk": "Leaders often pause and then resume; one week is not a trend."
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-2.1 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
   },
   {
    "id": "3",
-   "sym": "XLY",
-   "name": "Consumer discretionary",
-   "flag": "Left out of the move",
-   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-0.6 pts).",
-   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
-   "risk": "Cyclical sectors can turn quickly if the mood changes."
+   "sym": "XLK",
+   "name": "Tech",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
   {
    "id": "4",
-   "sym": "XLF",
-   "name": "Financials",
-   "flag": "Left out of the move",
-   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (+0.1 pts).",
-   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
-   "risk": "Cyclical sectors can turn quickly if the mood changes."
+   "sym": "XLY",
+   "name": "Consumer discretionary",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+4.7 pts) and money moved in at a moderate pace this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
    "id": "5",
-   "sym": "XLE",
-   "name": "Energy",
+   "sym": "XLF",
+   "name": "Financials",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+6.2 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+3.2 pts) and money moved in at a moderate pace this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
    "id": "6",
-   "sym": "XLV",
-   "name": "Health care",
-   "flag": "Leader losing speed",
-   "shows": "Beat the S&P 500 by 15.4 pts over 3 months, but that lead stopped growing this week.",
-   "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
-   "risk": "Leaders often pause and then resume; one week is not a trend."
+   "sym": "XLE",
+   "name": "Energy",
+   "flag": "Correction, still falling behind",
+   "shows": "13% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
   },
   {
    "id": "7",
-   "sym": "XLP",
-   "name": "Consumer staples",
+   "sym": "XLV",
+   "name": "Health care",
    "flag": "Leader losing speed",
-   "shows": "Beat the S&P 500 by 11.4 pts over 3 months, but that lead stopped growing this week.",
+   "shows": "Beat the S&P 500 by 8.1 pts over 3 months, but that lead stopped growing this week.",
    "why_look": "A fading leader is where rotation out often begins; watch whether it keeps fading.",
    "risk": "Leaders often pause and then resume; one week is not a trend."
   },
   {
    "id": "8",
+   "sym": "XLV",
+   "name": "Health care",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.4x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "id": "9",
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+11.0 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "id": "10",
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.5x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "id": "11",
+   "sym": "XLU",
+   "name": "Utilities",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+7.1 pts) and money moved in quickly this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "id": "12",
+   "sym": "XLRE",
+   "name": "Real estate",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+3.3 pts) and money moved in at a moderate pace this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "id": "13",
    "sym": "SMH",
    "name": "Semiconductors",
+   "flag": "Correction, still falling behind",
+   "shows": "33% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
+   "id": "14",
+   "sym": "VXUS",
+   "name": "International (ex-US)",
    "flag": "Beaten down, starting to turn",
-   "shows": "27% below its 1-year high, but gaining on the S&P 500 this week (+2.3 pts).",
+   "shows": "12% below its 1-year high, but gaining on the S&P 500 this week (-0.3 pts).",
    "why_look": "Some investors research areas that fell hard once they start to recover.",
    "risk": "A one-week bounce often fails; the longer downtrend is still in place."
   },
   {
-   "id": "9",
+   "id": "15",
    "sym": "VWO",
    "name": "Emerging markets",
-   "flag": "Heavy trading",
-   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved out of it.",
-   "why_look": "Heavy volume means big players are active; check the news for why.",
-   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+   "flag": "Correction, still falling behind",
+   "shows": "14% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling region early is a common way to lose money; nothing here says it has bottomed."
   }
  ],
  "meta": [
@@ -89,11 +143,11 @@
   },
   {
    "label": "Closes as of",
-   "value": "2026-11-13"
+   "value": "2026-11-19"
   },
   {
    "label": "Built",
-   "value": "2026-11-15T23:09:56+00:00"
+   "value": "2026-11-20T02:52:15+00:00"
   },
   {
    "label": "Made by",
