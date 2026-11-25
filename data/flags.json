@@ -5,7 +5,7 @@
    "sym": "XLK",
    "name": "Tech",
    "flag": "Correction, still falling behind",
-   "shows": "26% below its 1-year high and still losing ground to the S&P 500.",
+   "shows": "22% below its 1-year high and still losing ground to the S&P 500.",
    "why_look": "Worth re-checking the reasons if you already own it or plan to.",
    "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
   },
@@ -14,7 +14,7 @@
    "sym": "XLK",
    "name": "Tech",
    "flag": "Left out of the move",
-   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-4.0 pts).",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-1.9 pts).",
    "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
    "risk": "Cyclical sectors can turn quickly if the mood changes."
   },
@@ -23,7 +23,7 @@
    "sym": "XLK",
    "name": "Tech",
    "flag": "Heavy trading",
-   "shows": "Dollar volume this week was 1.3x its 50-day average, while money moved out of it.",
+   "shows": "Dollar volume this week was 1.7x its 50-day average, while money moved out of it.",
    "why_look": "Heavy volume means big players are active; check the news for why.",
    "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
@@ -32,7 +32,7 @@
    "sym": "XLY",
    "name": "Consumer discretionary",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+4.6 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+6.7 pts) and money moved in quickly this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
@@ -40,100 +40,136 @@
    "id": "5",
    "sym": "XLF",
    "name": "Financials",
-   "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+3.5 pts) and money moved in at a moderate pace this week.",
-   "why_look": "Momentum: money is still arriving.",
-   "risk": "Arriving late to a strong move risks buying near a peak."
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (+0.2 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
   },
   {
    "id": "6",
-   "sym": "XLE",
-   "name": "Energy",
-   "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+5.9 pts) and money moved in quickly this week.",
-   "why_look": "Momentum: money is still arriving.",
-   "risk": "Arriving late to a strong move risks buying near a peak."
-  },
-  {
-   "id": "7",
-   "sym": "XLV",
-   "name": "Health care",
-   "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+11.1 pts) and money moved in quickly this week.",
-   "why_look": "Momentum: money is still arriving.",
-   "risk": "Arriving late to a strong move risks buying near a peak."
-  },
-  {
-   "id": "8",
-   "sym": "XLV",
-   "name": "Health care",
+   "sym": "XLF",
+   "name": "Financials",
    "flag": "Heavy trading",
    "shows": "Dollar volume this week was 1.4x its 50-day average, while money moved into it.",
    "why_look": "Heavy volume means big players are active; check the news for why.",
    "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
   {
+   "id": "7",
+   "sym": "XLI",
+   "name": "Industrials",
+   "flag": "Left out of the move",
+   "shows": "Money is leaning defensive, and this cyclical sector saw little inflow this week (-0.0 pts).",
+   "why_look": "Shows where money is not going right now; useful to know before adding exposure here.",
+   "risk": "Cyclical sectors can turn quickly if the mood changes."
+  },
+  {
+   "id": "8",
+   "sym": "XLE",
+   "name": "Energy",
+   "flag": "Correction, still falling behind",
+   "shows": "14% below its 1-year high and still losing ground to the S&P 500.",
+   "why_look": "Worth re-checking the reasons if you already own it or plan to.",
+   "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
    "id": "9",
-   "sym": "XLP",
-   "name": "Consumer staples",
+   "sym": "XLV",
+   "name": "Health care",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+13.2 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+12.6 pts) and money moved in at a moderate pace this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
    "id": "10",
-   "sym": "XLP",
-   "name": "Consumer staples",
+   "sym": "XLV",
+   "name": "Health care",
    "flag": "Heavy trading",
-   "shows": "Dollar volume this week was 1.5x its 50-day average, while money moved into it.",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved into it.",
    "why_look": "Heavy volume means big players are active; check the news for why.",
    "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   },
   {
    "id": "11",
-   "sym": "XLU",
-   "name": "Utilities",
+   "sym": "XLP",
+   "name": "Consumer staples",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+8.7 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+12.7 pts) and money moved in quickly this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
    "id": "12",
-   "sym": "XLRE",
-   "name": "Real estate",
+   "sym": "XLP",
+   "name": "Consumer staples",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.7x its 50-day average, while money moved into it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "id": "13",
+   "sym": "XLU",
+   "name": "Utilities",
    "flag": "Strong and still gaining",
-   "shows": "Ahead of the S&P 500 over 3 months (+3.5 pts) and money moved in quickly this week.",
+   "shows": "Ahead of the S&P 500 over 3 months (+5.9 pts) and money moved in at a moderate pace this week.",
    "why_look": "Momentum: money is still arriving.",
    "risk": "Arriving late to a strong move risks buying near a peak."
   },
   {
-   "id": "13",
+   "id": "14",
+   "sym": "XLRE",
+   "name": "Real estate",
+   "flag": "Strong and still gaining",
+   "shows": "Ahead of the S&P 500 over 3 months (+2.6 pts) and money moved in at a moderate pace this week.",
+   "why_look": "Momentum: money is still arriving.",
+   "risk": "Arriving late to a strong move risks buying near a peak."
+  },
+  {
+   "id": "15",
    "sym": "SMH",
    "name": "Semiconductors",
    "flag": "Correction, still falling behind",
-   "shows": "40% below its 1-year high and still losing ground to the S&P 500.",
+   "shows": "36% below its 1-year high and still losing ground to the S&P 500.",
    "why_look": "Worth re-checking the reasons if you already own it or plan to.",
    "risk": "Buying a falling sector early is a common way to lose money; nothing here says it has bottomed."
   },
   {
-   "id": "14",
+   "id": "16",
    "sym": "VXUS",
    "name": "International (ex-US)",
    "flag": "Correction, still falling behind",
-   "shows": "15% below its 1-year high and still losing ground to the S&P 500.",
+   "shows": "12% below its 1-year high and still losing ground to the S&P 500.",
    "why_look": "Worth re-checking the reasons if you already own it or plan to.",
    "risk": "Buying a falling region early is a common way to lose money; nothing here says it has bottomed."
   },
   {
-   "id": "15",
+   "id": "17",
+   "sym": "VXUS",
+   "name": "International (ex-US)",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.6x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
+  },
+  {
+   "id": "18",
    "sym": "VWO",
    "name": "Emerging markets",
    "flag": "Correction, still falling behind",
-   "shows": "18% below its 1-year high and still losing ground to the S&P 500.",
+   "shows": "14% below its 1-year high and still losing ground to the S&P 500.",
    "why_look": "Worth re-checking the reasons if you already own it or plan to.",
    "risk": "Buying a falling region early is a common way to lose money; nothing here says it has bottomed."
+  },
+  {
+   "id": "19",
+   "sym": "VWO",
+   "name": "Emerging markets",
+   "flag": "Heavy trading",
+   "shows": "Dollar volume this week was 1.8x its 50-day average, while money moved out of it.",
+   "why_look": "Heavy volume means big players are active; check the news for why.",
+   "risk": "Heavy volume can mean buying or selling; it does not tell you which way it goes next."
   }
  ],
  "meta": [
@@ -143,11 +179,11 @@
   },
   {
    "label": "Closes as of",
-   "value": "2026-11-20"
+   "value": "2026-11-24"
   },
   {
    "label": "Built",
-   "value": "2026-11-20T20:29:59+00:00"
+   "value": "2026-11-25T00:55:44+00:00"
   },
   {
    "label": "Made by",

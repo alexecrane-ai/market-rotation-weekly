@@ -4,561 +4,561 @@
    "sym": "XLK",
    "sector": "Tech",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 97.62,
-   "y": 100.35
+   "date": "2026-10-27",
+   "x": 99.7,
+   "y": 102.12
   },
   {
    "sym": "XLK",
    "sector": "Tech",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 96.12,
-   "y": 98.49
+   "date": "2026-11-03",
+   "x": 94.76,
+   "y": 95.06
   },
   {
    "sym": "XLK",
    "sector": "Tech",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 91.06,
-   "y": 94.94
+   "date": "2026-11-10",
+   "x": 91.79,
+   "y": 97.03
   },
   {
    "sym": "XLK",
    "sector": "Tech",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 92.26,
-   "y": 101.2
+   "date": "2026-11-17",
+   "x": 91.43,
+   "y": 99.64
   },
   {
    "sym": "XLK",
    "sector": "Tech",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 89.12,
-   "y": 96.86
+   "date": "2026-11-24",
+   "x": 90.48,
+   "y": 99.06
   },
   {
    "sym": "XLC",
    "sector": "Communication",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 95.51,
-   "y": 96.25
+   "date": "2026-10-27",
+   "x": 92.82,
+   "y": 94.41
   },
   {
    "sym": "XLC",
    "sector": "Communication",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 91.64,
-   "y": 96.13
+   "date": "2026-11-03",
+   "x": 93.54,
+   "y": 100.72
   },
   {
    "sym": "XLC",
    "sector": "Communication",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 99.38,
-   "y": 107.74
+   "date": "2026-11-10",
+   "x": 100.28,
+   "y": 106.74
   },
   {
    "sym": "XLC",
    "sector": "Communication",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 100.69,
-   "y": 101.31
+   "date": "2026-11-17",
+   "x": 100.47,
+   "y": 100.19
   },
   {
    "sym": "XLC",
    "sector": "Communication",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 101.37,
-   "y": 100.68
+   "date": "2026-11-24",
+   "x": 101.88,
+   "y": 101.4
   },
   {
    "sym": "XLY",
    "sector": "Consumer discretionary",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 100.73,
-   "y": 101.28
+   "date": "2026-10-27",
+   "x": 101.58,
+   "y": 100.08
   },
   {
    "sym": "XLY",
    "sector": "Consumer discretionary",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 103.47,
-   "y": 102.75
+   "date": "2026-11-03",
+   "x": 105.36,
+   "y": 103.78
   },
   {
    "sym": "XLY",
    "sector": "Consumer discretionary",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 107.99,
-   "y": 104.52
+   "date": "2026-11-10",
+   "x": 108.75,
+   "y": 103.39
   },
   {
    "sym": "XLY",
    "sector": "Consumer discretionary",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 106.77,
-   "y": 98.78
+   "date": "2026-11-17",
+   "x": 107.02,
+   "y": 98.27
   },
   {
    "sym": "XLY",
    "sector": "Consumer discretionary",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 108.38,
-   "y": 101.61
+   "date": "2026-11-24",
+   "x": 108.53,
+   "y": 101.51
   },
   {
    "sym": "XLF",
    "sector": "Financials",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 100.7,
-   "y": 101.38
+   "date": "2026-10-27",
+   "x": 99.5,
+   "y": 100.43
   },
   {
    "sym": "XLF",
    "sector": "Financials",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 102.57,
-   "y": 101.87
+   "date": "2026-11-03",
+   "x": 103.96,
+   "y": 104.46
   },
   {
    "sym": "XLF",
    "sector": "Financials",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 106.42,
-   "y": 103.85
+   "date": "2026-11-10",
+   "x": 106.29,
+   "y": 102.33
   },
   {
    "sym": "XLF",
    "sector": "Financials",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 106.21,
-   "y": 99.79
+   "date": "2026-11-17",
+   "x": 106.2,
+   "y": 99.91
   },
   {
    "sym": "XLF",
    "sector": "Financials",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 107.62,
-   "y": 101.41
+   "date": "2026-11-24",
+   "x": 105.99,
+   "y": 99.78
   },
   {
    "sym": "XLI",
    "sector": "Industrials",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 96.56,
-   "y": 99.55
-  },
-  {
-   "sym": "XLI",
-   "sector": "Industrials",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 99.59,
-   "y": 103.03
-  },
-  {
-   "sym": "XLI",
-   "sector": "Industrials",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 99.95,
-   "y": 100.36
-  },
-  {
-   "sym": "XLI",
-   "sector": "Industrials",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 101.22,
-   "y": 101.27
-  },
-  {
-   "sym": "XLI",
-   "sector": "Industrials",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 102.54,
-   "y": 101.32
-  },
-  {
-   "sym": "XLE",
-   "sector": "Energy",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 108.86,
-   "y": 100.73
-  },
-  {
-   "sym": "XLE",
-   "sector": "Energy",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 109.51,
-   "y": 100.65
-  },
-  {
-   "sym": "XLE",
-   "sector": "Energy",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 98.6,
-   "y": 89.09
-  },
-  {
-   "sym": "XLE",
-   "sector": "Energy",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 101.29,
-   "y": 102.69
-  },
-  {
-   "sym": "XLE",
-   "sector": "Energy",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 103.38,
-   "y": 102.1
-  },
-  {
-   "sym": "XLB",
-   "sector": "Materials",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 101.61,
-   "y": 101.41
-  },
-  {
-   "sym": "XLB",
-   "sector": "Materials",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 105.03,
-   "y": 103.42
-  },
-  {
-   "sym": "XLB",
-   "sector": "Materials",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 106.19,
-   "y": 101.16
-  },
-  {
-   "sym": "XLB",
-   "sector": "Materials",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 103.89,
-   "y": 97.7
-  },
-  {
-   "sym": "XLB",
-   "sector": "Materials",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 105.04,
-   "y": 101.15
-  },
-  {
-   "sym": "XLV",
-   "sector": "Health care",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 105.84,
-   "y": 101.19
-  },
-  {
-   "sym": "XLV",
-   "sector": "Health care",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 109.01,
-   "y": 103.17
-  },
-  {
-   "sym": "XLV",
-   "sector": "Health care",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 110.96,
-   "y": 101.94
-  },
-  {
-   "sym": "XLV",
-   "sector": "Health care",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 109.28,
-   "y": 98.32
-  },
-  {
-   "sym": "XLV",
-   "sector": "Health care",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 110.47,
-   "y": 101.2
-  },
-  {
-   "sym": "XLP",
-   "sector": "Consumer staples",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 105.67,
-   "y": 100.76
-  },
-  {
-   "sym": "XLP",
-   "sector": "Consumer staples",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 107.33,
-   "y": 101.66
-  },
-  {
-   "sym": "XLP",
-   "sector": "Consumer staples",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 110.26,
-   "y": 102.94
-  },
-  {
-   "sym": "XLP",
-   "sector": "Consumer staples",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 109.21,
-   "y": 98.95
-  },
-  {
-   "sym": "XLP",
-   "sector": "Consumer staples",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 115.31,
-   "y": 106.09
-  },
-  {
-   "sym": "XLU",
-   "sector": "Utilities",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 102.7,
+   "date": "2026-10-27",
+   "x": 97.65,
    "y": 101.55
   },
   {
-   "sym": "XLU",
-   "sector": "Utilities",
+   "sym": "XLI",
+   "sector": "Industrials",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 105.63,
-   "y": 102.94
+   "date": "2026-11-03",
+   "x": 102.27,
+   "y": 104.62
   },
   {
-   "sym": "XLU",
-   "sector": "Utilities",
+   "sym": "XLI",
+   "sector": "Industrials",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 107.49,
-   "y": 101.85
+   "date": "2026-11-10",
+   "x": 101.73,
+   "y": 99.47
   },
   {
-   "sym": "XLU",
-   "sector": "Utilities",
+   "sym": "XLI",
+   "sector": "Industrials",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 106.49,
-   "y": 99.0
+   "date": "2026-11-17",
+   "x": 101.82,
+   "y": 100.08
   },
   {
-   "sym": "XLU",
-   "sector": "Utilities",
+   "sym": "XLI",
+   "sector": "Industrials",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 112.3,
-   "y": 105.82
+   "date": "2026-11-24",
+   "x": 101.73,
+   "y": 99.91
   },
   {
-   "sym": "XLRE",
-   "sector": "Real estate",
+   "sym": "XLE",
+   "sector": "Energy",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 100.3,
-   "y": 101.85
+   "date": "2026-10-27",
+   "x": 105.28,
+   "y": 99.02
   },
   {
-   "sym": "XLRE",
-   "sector": "Real estate",
+   "sym": "XLE",
+   "sector": "Energy",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 102.78,
-   "y": 102.48
+   "date": "2026-11-03",
+   "x": 104.18,
+   "y": 98.9
   },
   {
-   "sym": "XLRE",
-   "sector": "Real estate",
+   "sym": "XLE",
+   "sector": "Energy",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 107.64,
-   "y": 104.86
+   "date": "2026-11-10",
+   "x": 97.59,
+   "y": 93.41
   },
   {
-   "sym": "XLRE",
-   "sector": "Real estate",
+   "sym": "XLE",
+   "sector": "Energy",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 105.52,
-   "y": 97.88
+   "date": "2026-11-17",
+   "x": 101.63,
+   "y": 104.04
   },
   {
-   "sym": "XLRE",
-   "sector": "Real estate",
+   "sym": "XLE",
+   "sector": "Energy",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 110.01,
-   "y": 104.49
+   "date": "2026-11-24",
+   "x": 98.92,
+   "y": 97.28
   },
   {
-   "sym": "SMH",
-   "sector": "Semiconductors",
+   "sym": "XLB",
+   "sector": "Materials",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 92.63,
+   "date": "2026-10-27",
+   "x": 101.27,
+   "y": 101.11
+  },
+  {
+   "sym": "XLB",
+   "sector": "Materials",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 104.89,
+   "y": 103.62
+  },
+  {
+   "sym": "XLB",
+   "sector": "Materials",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 105.83,
+   "y": 100.94
+  },
+  {
+   "sym": "XLB",
+   "sector": "Materials",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 104.06,
+   "y": 98.23
+  },
+  {
+   "sym": "XLB",
+   "sector": "Materials",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 104.24,
+   "y": 100.18
+  },
+  {
+   "sym": "XLV",
+   "sector": "Health care",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 104.12,
+   "y": 98.72
+  },
+  {
+   "sym": "XLV",
+   "sector": "Health care",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 108.4,
+   "y": 104.27
+  },
+  {
+   "sym": "XLV",
+   "sector": "Health care",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 110.63,
+   "y": 102.24
+  },
+  {
+   "sym": "XLV",
+   "sector": "Health care",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 109.76,
+   "y": 99.13
+  },
+  {
+   "sym": "XLV",
+   "sector": "Health care",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 109.98,
+   "y": 100.22
+  },
+  {
+   "sym": "XLP",
+   "sector": "Consumer staples",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 102.88,
    "y": 98.76
   },
   {
+   "sym": "XLP",
+   "sector": "Consumer staples",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 106.73,
+   "y": 103.84
+  },
+  {
+   "sym": "XLP",
+   "sector": "Consumer staples",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 108.86,
+   "y": 102.13
+  },
+  {
+   "sym": "XLP",
+   "sector": "Consumer staples",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 110.8,
+   "y": 101.94
+  },
+  {
+   "sym": "XLP",
+   "sector": "Consumer staples",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 111.73,
+   "y": 100.93
+  },
+  {
+   "sym": "XLU",
+   "sector": "Utilities",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 102.21,
+   "y": 102.47
+  },
+  {
+   "sym": "XLU",
+   "sector": "Utilities",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 105.68,
+   "y": 103.47
+  },
+  {
+   "sym": "XLU",
+   "sector": "Utilities",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 106.62,
+   "y": 100.95
+  },
+  {
+   "sym": "XLU",
+   "sector": "Utilities",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 107.89,
+   "y": 101.26
+  },
+  {
+   "sym": "XLU",
+   "sector": "Utilities",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 108.91,
+   "y": 101.03
+  },
+  {
+   "sym": "XLRE",
+   "sector": "Real estate",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 98.92,
+   "y": 100.49
+  },
+  {
+   "sym": "XLRE",
+   "sector": "Real estate",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 104.25,
+   "y": 105.32
+  },
+  {
+   "sym": "XLRE",
+   "sector": "Real estate",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 106.8,
+   "y": 102.55
+  },
+  {
+   "sym": "XLRE",
+   "sector": "Real estate",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 106.58,
+   "y": 99.78
+  },
+  {
+   "sym": "XLRE",
+   "sector": "Real estate",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 107.63,
+   "y": 101.05
+  },
+  {
+   "sym": "SMH",
+   "sector": "Semiconductors",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 97.05,
+   "y": 102.58
+  },
+  {
    "sym": "SMH",
    "sector": "Semiconductors",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 92.68,
-   "y": 100.05
+   "date": "2026-11-03",
+   "x": 92.36,
+   "y": 95.31
   },
   {
    "sym": "SMH",
    "sector": "Semiconductors",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 85.46,
-   "y": 92.77
+   "date": "2026-11-10",
+   "x": 87.7,
+   "y": 95.35
   },
   {
    "sym": "SMH",
    "sector": "Semiconductors",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 88.17,
-   "y": 102.71
+   "date": "2026-11-17",
+   "x": 86.39,
+   "y": 98.68
   },
   {
    "sym": "SMH",
    "sector": "Semiconductors",
    "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 80.84,
-   "y": 92.67
+   "date": "2026-11-24",
+   "x": 83.01,
+   "y": 96.63
   },
   {
    "sym": "VXUS",
    "sector": "International (ex-US)",
    "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 96.99,
-   "y": 99.73
+   "date": "2026-10-27",
+   "x": 96.84,
+   "y": 99.83
   },
   {
    "sym": "VXUS",
    "sector": "International (ex-US)",
    "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 97.76,
-   "y": 100.78
+   "date": "2026-11-03",
+   "x": 97.97,
+   "y": 101.13
   },
   {
    "sym": "VXUS",
    "sector": "International (ex-US)",
    "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 99.14,
-   "y": 101.37
+   "date": "2026-11-10",
+   "x": 99.42,
+   "y": 101.44
   },
   {
    "sym": "VXUS",
    "sector": "International (ex-US)",
    "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 99.04,
+   "date": "2026-11-17",
+   "x": 99.08,
+   "y": 99.66
+  },
+  {
+   "sym": "VXUS",
+   "sector": "International (ex-US)",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 98.68,
+   "y": 99.6
+  },
+  {
+   "sym": "VWO",
+   "sector": "Emerging markets",
+   "weeks_ago": 4,
+   "date": "2026-10-27",
+   "x": 94.96,
+   "y": 97.98
+  },
+  {
+   "sym": "VWO",
+   "sector": "Emerging markets",
+   "weeks_ago": 3,
+   "date": "2026-11-03",
+   "x": 94.92,
+   "y": 99.97
+  },
+  {
+   "sym": "VWO",
+   "sector": "Emerging markets",
+   "weeks_ago": 2,
+   "date": "2026-11-10",
+   "x": 98.03,
+   "y": 103.11
+  },
+  {
+   "sym": "VWO",
+   "sector": "Emerging markets",
+   "weeks_ago": 1,
+   "date": "2026-11-17",
+   "x": 97.11,
+   "y": 99.08
+  },
+  {
+   "sym": "VWO",
+   "sector": "Emerging markets",
+   "weeks_ago": 0,
+   "date": "2026-11-24",
+   "x": 97.01,
    "y": 99.9
-  },
-  {
-   "sym": "VXUS",
-   "sector": "International (ex-US)",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 98.99,
-   "y": 99.95
-  },
-  {
-   "sym": "VWO",
-   "sector": "Emerging markets",
-   "weeks_ago": 4,
-   "date": "2026-10-23",
-   "x": 95.99,
-   "y": 98.76
-  },
-  {
-   "sym": "VWO",
-   "sector": "Emerging markets",
-   "weeks_ago": 3,
-   "date": "2026-10-30",
-   "x": 94.79,
-   "y": 98.81
-  },
-  {
-   "sym": "VWO",
-   "sector": "Emerging markets",
-   "weeks_ago": 2,
-   "date": "2026-11-06",
-   "x": 97.67,
-   "y": 102.88
-  },
-  {
-   "sym": "VWO",
-   "sector": "Emerging markets",
-   "weeks_ago": 1,
-   "date": "2026-11-13",
-   "x": 97.6,
-   "y": 99.93
-  },
-  {
-   "sym": "VWO",
-   "sector": "Emerging markets",
-   "weeks_ago": 0,
-   "date": "2026-11-20",
-   "x": 96.19,
-   "y": 98.58
   }
  ],
  "meta": [
@@ -568,11 +568,11 @@
   },
   {
    "label": "Closes as of",
-   "value": "2026-11-20"
+   "value": "2026-11-24"
   },
   {
    "label": "Built",
-   "value": "2026-11-20T20:29:59+00:00"
+   "value": "2026-11-25T00:55:44+00:00"
   },
   {
    "label": "Made by",

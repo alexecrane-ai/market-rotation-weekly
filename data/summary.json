@@ -1,13 +1,13 @@
 {
  "rows": [
   {
-   "as_of": "2026-11-20",
-   "leaders": "Consumer staples, Health care, Utilities",
+   "as_of": "2026-11-24",
+   "leaders": "Consumer staples, Health care, Consumer discretionary",
    "laggards": "Communication, Industrials, Tech",
-   "defensive_in_top3": 3,
+   "defensive_in_top3": 2,
    "pattern": "defensive",
-   "above_50d": 4,
-   "above_200d": 4,
+   "above_50d": 6,
+   "above_200d": 5,
    "sectors": 11,
    "regime_lean": "rates stay high",
    "regime_high": 3,
@@ -22,11 +22,11 @@
   },
   {
    "label": "Closes as of",
-   "value": "2026-11-20"
+   "value": "2026-11-24"
   },
   {
    "label": "Built",
-   "value": "2026-11-20T20:29:59+00:00"
+   "value": "2026-11-25T00:55:44+00:00"
   },
   {
    "label": "Made by",
